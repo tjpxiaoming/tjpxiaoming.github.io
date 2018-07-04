@@ -1829,7 +1829,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #29f062;
+  background: #5462b0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2989,4 +2989,12 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+@font-face {
+  font-family: DawningofaNewDay;
+  src: url("/fonts/DawningofaNewDay.ttf");
+}
+.site-title {
+  font-size: 40px !important;
+  font-family: 'DawningofaNewDay' !important;
 }
