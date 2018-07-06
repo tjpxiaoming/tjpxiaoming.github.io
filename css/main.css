@@ -1816,7 +1816,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7dff1c;
+  background: #b49fab;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2682,7 +2682,18 @@ embed {
 }
 body {
   background: url("/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
+}
+@font-face {
+  font-family: PaintCans_09_FREE;
+  src: url("/fonts/PaintCans_09_FREE.otf");
+}
+.site-title {
+  font-size: 50px !important;
+  font-family: 'PaintCans_09_FREE' !important;
 }
 .headband {
   height: 1.5px;
