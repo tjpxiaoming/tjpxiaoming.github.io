@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-02T13:34:19.809Z</updated>
+  <updated>2018-07-10T12:44:26.915Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ABOUT ME</title>
+    <link href="http://yoursite.com/2018/07/10/ABOUT-ME/"/>
+    <id>http://yoursite.com/2018/07/10/ABOUT-ME/</id>
+    <published>2018-07-10T12:43:48.000Z</published>
+    <updated>2018-07-10T12:44:26.915Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://pbjbyx5cy.bkt.clouddn.com/aboutme.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;##&lt;strong&gt;&lt;em&gt;About Me&lt;/em&gt;&lt;/strong&gt;##&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
