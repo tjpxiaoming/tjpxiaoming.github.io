@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff8308;
+  background: #7d863c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2749,8 +2749,8 @@ body {
   src: url("/fonts/PaintCans_09_FREE.otf");
 }
 .site-title {
-  font-size: 50px !important;
-  font-family: 'PaintCans_09_FREE.otf' !important;
+  font-size: 45px !important;
+  font-family: 'PaintCans_09_FREE' !important;
 }
 .headband {
   height: 1.5px;
