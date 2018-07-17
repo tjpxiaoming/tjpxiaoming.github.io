@@ -449,7 +449,7 @@ body {
 }
 @media (min-width: 1600px) {
   .container .header-inner {
-    width: 900px;
+    width: 1000px;
   }
 }
 .main {
@@ -461,7 +461,7 @@ body {
 }
 @media (min-width: 1600px) {
   .container .main-inner {
-    width: 900px;
+    width: 1000px;
   }
 }
 .footer {
@@ -478,7 +478,7 @@ body {
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
-    width: 900px;
+    width: 1000px;
   }
 }
 pre,
@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7d863c;
+  background: #20dd32;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3115,37 +3115,6 @@ img:hover {
 .post-toc ol {
   padding: 0px 10px 5px 10px;
 }
-.posts-collapse {
-  margin: 50px 0px;
-}
-@media (max-width: 1023px) {
-  .posts-collapse {
-    margin: 50px 20px;
-  }
-}
-.posts-collapse::after {
-  margin-left: -2px;
-  background-image: linear-gradient(180deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
-}
-.posts-collapse .collection-title::before {
-  background-color: #fff;
-}
-.posts-collapse .post-header:hover::before {
-  background-color: #a166ab;
-}
-.posts-collapse .collection-title h1,
-.posts-collapse .collection-title h2 {
-  color: #fff;
-}
-.posts-collapse .post-title a {
-  color: #5073b8;
-}
-.posts-collapse .post-title a:hover {
-  color: #a166ab;
-}
-.posts-collapse .post-header:hover {
-  border-bottom-color: #a166ab;
-}
 .page-archive .archive-page-counter {
   color: #fff;
 }
@@ -3157,6 +3126,8 @@ img:hover {
 }
 .post-block.page {
   margin-top: 40px;
+  font-size: 16px;
+  color: #77f;
 }
 .category-all-page {
   margin: -80px 50px 40px 50px;
@@ -3174,12 +3145,14 @@ img:hover {
 }
 .tag-cloud {
   margin: -80px 50px 40px 50px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 10px 0px rgba(1,1,1,0.5);
   background-color: #fff;
   padding: 86px 36px 36px 36px;
 }
 .tag-cloud-title {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  color: #77f;
+  font-size: 18px;
 }
 @media (max-width: 767px) {
   .tag-cloud {
@@ -3187,25 +3160,12 @@ img:hover {
     padding: 86px 5px 36px 5px;
   }
 }
-#top {
-  display: block;
-  text-align: center;
-  margin: -100px 50px 40px 50px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-  background-color: #fff;
-  padding: 106px 36px 10px 36px;
-}
-@media (max-width: 767px) {
-  #top {
-    margin: -93px 15px 50px 15px;
-    padding: 96px 10px 0px 10px;
-  }
-}
 .about-page {
   margin: -80px 0px 60px 0px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   background-color: #fff;
   padding: 106px 36px 36px 36px;
+  font-size: 15px;
 }
 @media (max-width: 767px) {
   .about-page {
@@ -3224,22 +3184,9 @@ h2.about-title {
   -webkit-text-fill-color: transparent;
   user-select: none;
 }
-.local-search-popup .search-icon,
-.local-search-popup .popup-btn-close {
-  color: #f79533;
-  margin-top: 7px;
-}
-.local-search-popup .local-search-input-wrapper input {
-  padding: 9px 0px;
-  height: 21px;
-  background-color: #fff;
-}
-.local-search-popup .popup-btn-close {
-  border-left: none;
-}
 ::selection {
   background-color: #fff159;
-  color: #555;
+  color: #333;
 }
 ::-webkit-scrollbar {
   width: 5px;
@@ -3255,31 +3202,6 @@ h2.about-title {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #f79533;
 }
-.aplayer {
-  font-family: Lato, -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STHeiti, "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", "Droid Sans Fallback", "Microsoft YaHei", sans-serif !important;
-}
-.aplayer-withlrc.aplayer .aplayer-info {
-  background-color: #fff;
-}
-.aplayer .aplayer-list ol {
-  background-color: #fff;
-}
-.use-motion .post-body {
-  -webkit-transform: inherit !important;
-  -moz-transform: inherit !important;
-  -ms-transform: inherit !important;
-  -o-transform: inherit !important;
-  transform: inherit !important;
-}
-img#github-emoji {
-  margin: 0px;
-  padding: 0px;
-  display: inline !important;
-  vertical-align: text-bottom;
-  border: none;
-  cursor: text;
-  box-shadow: none;
-}
 .post-body a {
   color: #5073b8;
   border-bottom: none;
@@ -3291,7 +3213,7 @@ img#github-emoji {
   text-decoration: underline;
 }
 .tag-cloud a {
-  border-bottom: 1px solid #5073b8;
+  border-bottom: 1px solid #0c73b8;
   text-decoration: none;
 }
 .tag-cloud a:hover {
@@ -3317,10 +3239,10 @@ a.fancybox {
 .btn {
   color: #fff !important;
   text-decoration: none !important;
-  border: 2px solid #222 !important;
+  border: 2px solid #111 !important;
 }
 .btn:hover {
-  color: #222 !important;
+  color: #245 !important;
 }
 #heart {
   animation: heartAnimate 1.33s ease-in-out infinite;
