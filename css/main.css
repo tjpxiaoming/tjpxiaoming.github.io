@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8578c4;
+  background: #7acc3d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2744,6 +2744,20 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
+.out-img-topic {
+  display: block;
+  max-height: 600px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+img.img-topic {
+  display: block;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  padding: 0;
+  clear: right;
+  width: 70%;
+}
 @font-face {
   font-family: PaintCans_09_FREE;
   src: url("/fonts/PaintCans_09_FREE.otf");
@@ -3341,9 +3355,6 @@ span#inline-toc {
   padding: 0.05em 0.4em;
   margin: 2px 5px 2px 0px;
   line-height: 1.5;
-}
-img.img-topic {
-  width: 100%;
 }
 .post-sticky-flag {
   font-size: inherit;
