@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #dfd5ad;
+  background: #52ffd2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2936,7 +2936,7 @@ img.img-topic {
 .comments {
   background-color: #fff;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
-  margin: 80px 0px 40px 0px;
+  margin: 80px 0px 35px 0px;
 }
 a {
   color: #5073b8;
