@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7acc3d;
+  background: #ff03a6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2746,8 +2746,8 @@ body {
 }
 .out-img-topic {
   display: block;
-  max-height: 600px;
-  margin-bottom: 5px;
+  max-height: 400px;
+  margin-bottom: 0px;
   overflow: hidden;
 }
 img.img-topic {
@@ -2836,7 +2836,7 @@ img.img-topic {
   border-bottom-color: rgba(161,102,171,0);
 }
 .post {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   padding: 45px 36px 36px 36px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   background-color: #fff;
@@ -2854,7 +2854,7 @@ img.img-topic {
 .posts-expand .post-meta .post-description {
   font-style: italic;
   font-size: 14px;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 0px;
   color: #666;
 }
@@ -3087,7 +3087,7 @@ img:hover {
   color: #fff;
 }
 .links-of-author {
-  margin-top: 0px;
+  margin-top: 15px;
 }
 .links-of-blogroll-title {
   margin-bottom: 10px;
