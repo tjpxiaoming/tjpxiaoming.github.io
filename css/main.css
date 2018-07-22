@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #218acf;
+  background: #f07dd1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2759,12 +2759,12 @@ img.img-topic {
   width: 70%;
 }
 @font-face {
-  font-family: shuyan;
-  src: url("/fonts/shuyan.ttf");
+  font-family: PaintCans_09_FREE;
+  src: url("/fonts/PaintCans_09_FREE.otf");
 }
 .site-title {
-  font-size: 60px !important;
-  font-family: 'shuyan' !important;
+  font-size: 48px !important;
+  font-family: 'PaintCans_09_FREE' !important;
 }
 .headband {
   height: 1.5px;
