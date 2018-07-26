@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #44461f;
+  background: #e08cff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2738,7 +2738,7 @@ embed {
   display: inline-block;
 }
 body {
-  background: url("http://pbjbyx5cy.bkt.clouddn.com/background.jpg");
+  background: url("/images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
